@@ -36,7 +36,7 @@ app.post("/add", (req, res) => {
   }
   return res.json({
     status: "success",
-    message: "the sum of given two numbers",
+    message: "The sum of given two numbers",
     sum: result,
   });
 });
@@ -60,7 +60,7 @@ app.post("/sub", (req, res) => {
   }
   return res.json({
     status: "success",
-    message: "the difference of given two numbers",
+    message: "The difference of given two numbers",
     difference: result,
   });
 });
